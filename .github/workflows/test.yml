@@ -38,6 +38,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
             name: report 
-            path: C:\Users\tiago_mata\Downloads\Supernatural\Projetos-Postman
+            path: ./results/Report.html
             
           
