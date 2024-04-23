@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run collection
-        run: newman run C:\Users\tiago_mata\Downloads\Supernatural\Projetos-Postman\Test.json -r cli,htmlextra --reporter-htmlextra-export .\results\report.html
+        run: newman run ./Test.json -r cli,htmlextra --reporter-htmlextra-export ./results/report.html
 
       # Runs a set of commands using the runners shell
       - name: Step Archive production artifacts
