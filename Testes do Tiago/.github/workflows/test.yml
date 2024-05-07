@@ -25,9 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
       
-      # Runs a single command using the runners shell
-      - name: Step 1 Install update
-        run: sudo npm install -g npm@10.5.2 to update
+    
 
        # Runs a single command using the runners shell      
        - name: Step 2 Install Newman-Reporter-Htmlextra
